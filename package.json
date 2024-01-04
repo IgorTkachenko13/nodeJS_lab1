@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "npx prettier . --check ",
-    "format:fix": "npx prettier . --write "
+    "format:fix": "npx prettier . --write ",
+    "prepare": "husky install"
   },
   "type": "module",
   "author": "",
@@ -17,6 +18,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-sonar": "^0.13.1",
+    "husky": "^8.0.3",
     "prettier": "3.1.1"
   }
 }
